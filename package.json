@@ -24,6 +24,11 @@
         "label": "Benty",
         "uiTheme": "vs-dark",
         "path": "./themes/benty-color-theme.json"
+      },
+      {
+        "label": "Benty Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/benty-dark-color-theme.json"
       }
     ]
   },

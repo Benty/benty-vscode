@@ -2,23 +2,26 @@
 
 import { colorish, defineConfig } from 'pinecone-cli'
 
-import { roles } from './palette.js'
+import paletteRoles from './palette.js'
 
 const palette = {}
 
-Object.keys(roles).map((role) => {
-  const currentRole = roles[role];
+Object.keys(paletteRoles).map((role) => {
+  const currentRole = paletteRoles[role];
 
   palette[role] = {
     darkDefault: currentRole.darkDefault,
+    dark: currentRole.dark,
   }
 
   // Add translucent variations.
   palette[`${role}/50`] = {
     darkDefault: colorish(currentRole.darkDefault, 0.5),
+    dark: colorish(currentRole.dark, 0.5),
   }
   palette[`${role}/15`] = {
     darkDefault: colorish(currentRole.darkDefault, 0.15),
+    dark: colorish(currentRole.dark, 0.15),
   }
 })
 
@@ -33,9 +36,13 @@ export default defineConfig({
       name: 'Benty',
       type: 'dark',
     },
+    dark: {
+      name: 'Benty Dark',
+      type: 'dark',
+    },
   },
   colors: {
-    shadow: colorish(palette.surface, 0.3),
+    shadow: colorish(palette.panel, 0.3),
     transparent: '#0000',
 
     onPrimary: palette.base,
