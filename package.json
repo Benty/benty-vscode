@@ -1,7 +1,7 @@
 {
   "name": "benty-vscode",
   "description": "A Benty-styled dark UI theme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "Benty",
   "icon": "assets/icon.png",
   "license": "MIT",
