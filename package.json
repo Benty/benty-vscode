@@ -1,12 +1,13 @@
 {
   "name": "benty-vscode",
   "description": "A Benty-styled dark UI theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Benty",
+  "icon": "assets/icon.png",
   "license": "MIT",
   "type": "module",
   "galleryBanner": {
-    "color": "#1b1f23",
+    "color": "#0C1A23",
     "theme": "dark"
   },
   "repository": {
@@ -21,7 +22,9 @@
     "watch": "pinecone --watch",
     "format": "prettier --write .",
     "release": "np --no-publish --no-tests",
-    "version": "npm run build && npm run format"
+    "version": "npm run build && npm run format",
+    "bundle": "vsce package",
+    "publish": "vsce publish"
   },
   "displayName": "Benty - VSCode",
   "categories": [
@@ -43,7 +46,7 @@
   },
   "devDependencies": {
     "@rose-pine/palette": "^2.0.0-4",
-    "chroma-js": "^2.4.2",
+    "@vscode/vsce": "^2.18.0",
     "np": "^7.6.1",
     "pinecone-cli": "^4.0.0",
     "prettier": "^2.5.1"
