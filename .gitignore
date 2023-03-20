@@ -1,0 +1,4 @@
+*.vsix
+releases/
+.DS_Store
+node_modules/
