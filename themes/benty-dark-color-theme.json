@@ -136,7 +136,7 @@
 		"editorGutter.background": "#0C1A23",
 		"editorGutter.commentRangeForeground": "#818891",
 		"editorGutter.deletedBackground": "#ebff00",
-		"editorGutter.foldingControlForeground": "#c678dd",
+		"editorGutter.foldingControlForeground": "#818891",
 		"editorGutter.modifiedBackground": "#80FF82",
 		"editorHint.border": "#0000",
 		"editorHint.foreground": "#818891",
@@ -517,7 +517,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#c678dd",
+				"foreground": "#ffc600",
 				"fontStyle": "italic"
 			}
 		},

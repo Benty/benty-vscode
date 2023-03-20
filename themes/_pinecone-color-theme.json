@@ -164,7 +164,7 @@
 		"editorGutter.background": "$base",
 		"editorGutter.commentRangeForeground": "$subtle",
 		"editorGutter.deletedBackground": "$yellow",
-		"editorGutter.foldingControlForeground": "$purple",
+		"editorGutter.foldingControlForeground": "$muted",
 		"editorGutter.modifiedBackground": "$primary",
 		"editorHint.border": "$transparent",
 		"editorHint.foreground": "$subtle",
@@ -729,7 +729,7 @@
 		{
 			"scope": ["entity.other.attribute-name", "entity.other.inherited-class"],
 			"settings": {
-				"foreground": "$purple",
+				"foreground": "$orange",
 				"fontStyle": "italic"
 			}
 		},

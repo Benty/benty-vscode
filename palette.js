@@ -41,7 +41,7 @@ const darkDefault = {
   orange: colors.orange,
   highlightLow: "#21374A",
   highlightMed: "#2C4863",
-  highlightHigh: "#000",
+  highlightHigh: "#324F6E",
 }
 
 const dark = {
