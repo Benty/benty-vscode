@@ -11,10 +11,10 @@ Benty - VSCode Theme
 ## Gallery
 
 ** Benty **
-![Preview](https://raw.githubusercontent.com/benty/benty-vscode/assets/screenshots/benty.png)
+![Preview](https://raw.githubusercontent.com/Benty/benty-vscode/main/assets/screenshots/benty.png)
 
 ** Benty Dark **
-![Preview](https://raw.githubusercontent.com/benty/benty-vscode/assets/screenshots/benty-dark.png)
+![Preview](https://raw.githubusercontent.com/Benty/benty-vscode/main/assets/screenshots/benty-dark.png)
 
 ## Deploying a new version
 
