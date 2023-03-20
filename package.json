@@ -48,12 +48,6 @@
     "@rose-pine/palette": "^2.0.0-4",
     "@vscode/vsce": "^2.18.0",
     "np": "^7.6.1",
-    "pinecone-cli": "^4.0.0",
-    "prettier": "^2.5.1"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "useTabs": true
+    "pinecone-cli": "^4.0.0"
   }
 }
