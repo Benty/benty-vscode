@@ -531,7 +531,7 @@
 		"terminal.ansiRed": "$yellow",
 		"terminal.ansiWhite": "$text",
 		"terminal.ansiYellow": "$gold",
-		"terminal.background": "",
+		"terminal.background": "$toolbar",
 		"terminal.border": "",
 		"terminal.dropBackground": "$highlightMed",
 		"terminal.foreground": "$text",
@@ -691,26 +691,35 @@
 	},
 	"tokenColors": [
 		{
-			"scope": ["comment"],
+			"scope": [
+				"comment"
+			],
 			"settings": {
 				"foreground": "$muted",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": ["constant"],
+			"scope": [
+				"constant"
+			],
 			"settings": {
 				"foreground": "$gold"
 			}
 		},
 		{
-			"scope": ["constant.numeric", "constant.language"],
+			"scope": [
+				"constant.numeric",
+				"constant.language"
+			],
 			"settings": {
 				"foreground": "$pink"
 			}
 		},
 		{
-			"scope": ["entity.name"],
+			"scope": [
+				"entity.name"
+			],
 			"settings": {
 				"foreground": "$lightgreen"
 			}
@@ -727,56 +736,77 @@
 			}
 		},
 		{
-			"scope": ["entity.other.attribute-name", "entity.other.inherited-class"],
+			"scope": [
+				"entity.other.attribute-name",
+				"entity.other.inherited-class"
+			],
 			"settings": {
 				"foreground": "$orange",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": ["invalid"],
+			"scope": [
+				"invalid"
+			],
 			"settings": {
 				"foreground": "$yellow"
 			}
 		},
 		{
-			"scope": ["invalid.deprecated"],
+			"scope": [
+				"invalid.deprecated"
+			],
 			"settings": {
 				"foreground": "$subtle"
 			}
 		},
 		{
-			"scope": ["keyword"],
+			"scope": [
+				"keyword"
+			],
 			"settings": {
 				"foreground": "$gold"
 			}
 		},
 		{
-			"scope": ["markup.inserted.diff"],
+			"scope": [
+				"markup.inserted.diff"
+			],
 			"settings": {
 				"foreground": "$foam"
 			}
 		},
 		{
-			"scope": ["markup.deleted.diff"],
+			"scope": [
+				"markup.deleted.diff"
+			],
 			"settings": {
 				"foreground": "$yellow"
 			}
 		},
 		{
-			"scope": ["meta.diff.range"],
+			"scope": [
+				"meta.diff.range"
+			],
 			"settings": {
 				"foreground": "$purple"
 			}
 		},
 		{
-			"scope": ["meta.tag", "meta.brace"],
+			"scope": [
+				"meta.tag",
+				"meta.brace"
+			],
 			"settings": {
 				"foreground": "$text"
 			}
 		},
 		{
-			"scope": ["meta.import", "meta.export"],
+			"scope": [
+				"meta.import",
+				"meta.export"
+			],
 			"settings": {
 				"foreground": "$gold"
 			}
@@ -819,38 +849,51 @@
 			}
 		},
 		{
-			"scope": ["punctuation"],
+			"scope": [
+				"punctuation"
+			],
 			"settings": {
 				"foreground": "$text"
 			}
 		},
 		{
-			"scope": ["punctuation.accessor"],
+			"scope": [
+				"punctuation.accessor"
+			],
 			"settings": {
 				"foreground": "$text"
 			}
 		},
 		{
-			"scope": ["punctuation.definition.string"],
+			"scope": [
+				"punctuation.definition.string"
+			],
 			"settings": {
 				"foreground": "$text"
 			}
 		},
 		{
-			"scope": ["punctuation.definition.tag"],
+			"scope": [
+				"punctuation.definition.tag"
+			],
 			"settings": {
 				"foreground": "$text"
 			}
 		},
 		{
-			"scope": ["punctuation.definition.comment"],
+			"scope": [
+				"punctuation.definition.comment"
+			],
 			"settings": {
 				"foreground": "$muted",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": ["storage.type", "storage.modifier"],
+			"scope": [
+				"storage.type",
+				"storage.modifier"
+			],
 			"settings": {
 				"foreground": "$gold"
 			}
@@ -862,32 +905,42 @@
 			}
 		},
 		{
-			"scope": ["string"],
+			"scope": [
+				"string"
+			],
 			"settings": {
 				"foreground": "$lime"
 			}
 		},
 		{
-			"scope": ["support"],
+			"scope": [
+				"support"
+			],
 			"settings": {
 				"foreground": "$foam"
 			}
 		},
 		{
-			"scope": ["support.constant"],
+			"scope": [
+				"support.constant"
+			],
 			"settings": {
 				"foreground": "$lime"
 			}
 		},
 		{
-			"scope": ["support.function"],
+			"scope": [
+				"support.function"
+			],
 			"settings": {
 				"foreground": "$yellow",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": ["variable"],
+			"scope": [
+				"variable"
+			],
 			"settings": {
 				"foreground": "$lightgreen",
 				"fontStyle": "italic"
@@ -905,7 +958,9 @@
 			}
 		},
 		{
-			"scope": ["variable.parameter"],
+			"scope": [
+				"variable.parameter"
+			],
 			"settings": {
 				"foreground": "$orange"
 			}
